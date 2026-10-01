@@ -1,0 +1,21 @@
+# Core Telegram Bot
+python-telegram-bot[job-queue]>=21.0
+
+# MarkItDown by Microsoft
+markitdown[all]>=0.0.1a4
+
+# Document & Spreadsheet Processing
+openpyxl>=3.1.0
+python-docx>=1.1.0
+pypdf>=4.0.0
+
+# Image & OCR Processing
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# Environment & Utilities
+python-dotenv>=1.0.0
+aiofiles>=23.2.0
+
+# Optional LLM integration (if OPENAI_API_KEY is provided)
+openai>=1.0.0

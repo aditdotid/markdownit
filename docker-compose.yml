@@ -1,0 +1,13 @@
+
+services:
+  markitdown-bot:
+    build: .
+    container_name: markitdown-telegram-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Optional: bind mount temporary directory for troubleshooting
+      - ./temp:/tmp/markitdown_bot
+    environment:
+      - PYTHONUNBUFFERED=1
